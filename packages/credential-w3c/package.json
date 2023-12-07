@@ -27,8 +27,8 @@
     "@veramo/credential-ld": "^5.5.3"
   },
   "devDependencies": {
-    "@types/debug": "4.1.8",
-    "@types/uuid": "9.0.2",
+    "@types/debug": "4.1.12",
+    "@types/uuid": "9.0.7",
     "typescript": "5.2.2"
   },
   "files": [

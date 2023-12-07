@@ -20,8 +20,8 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/debug": "4.1.8",
-    "@types/uuid": "9.0.2",
+    "@types/debug": "4.1.12",
+    "@types/uuid": "9.0.7",
     "sqlite3": "5.1.6",
     "typescript": "5.2.2"
   },
