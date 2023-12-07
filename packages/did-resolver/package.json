@@ -17,9 +17,9 @@
     "did-resolver": "^4.1.0"
   },
   "devDependencies": {
-    "ethr-did-resolver": "9.0.0",
+    "ethr-did-resolver": "9.1.1",
     "@types/debug": "4.1.8",
-    "typescript": "5.2.2",
+    "typescript": "5.3.3",
     "web-did-resolver": "2.0.27"
   },
   "files": [

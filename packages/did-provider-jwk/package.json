@@ -22,7 +22,7 @@
     "@veramo/core": "workspace:*",
     "@veramo/key-manager": "workspace:*",
     "@veramo/kms-local": "workspace:*",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   },
   "repository": {
     "type": "git",
