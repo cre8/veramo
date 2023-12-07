@@ -37,8 +37,8 @@ importers:
         specifier: 1.0.3
         version: 1.0.3
       '@transmute/credentials-context':
-        specifier: 0.7.0-unstable.81
-        version: 0.7.0-unstable.81
+        specifier: 0.7.0-unstable.82
+        version: 0.7.0-unstable.82
       '@types/express':
         specifier: 4.17.17
         version: 4.17.17
@@ -64,11 +64,11 @@ importers:
         specifier: 7.0.3
         version: 7.0.3
       did-jwt:
-        specifier: 7.4.2
-        version: 7.4.2
+        specifier: 7.4.5
+        version: 7.4.5
       did-jwt-vc:
-        specifier: 3.2.11
-        version: 3.2.11
+        specifier: 3.2.14
+        version: 3.2.14
       did-resolver:
         specifier: 4.1.0
         version: 4.1.0
@@ -7305,7 +7305,6 @@ packages:
 
   /@multiformats/base-x@4.0.1:
     resolution: {integrity: sha512-eMk0b9ReBbV23xXU693TAIrLyeO5iTgBZGSJfpqriG8UkYvr/hC9u9pyMlAakDNHWmbhMZCDs6KQO0jzKD8OTw==}
-    dev: false
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -7315,6 +7314,11 @@ packages:
 
   /@noble/ciphers@0.3.0:
     resolution: {integrity: sha512-ldbrnOjmNRwFdXcTM6uXDcxpMIFrbzAWNnpBPp4oTJTFF0XByGD6vf45WrehZGXRQTRVV+Zm8YP+EgEf+e4cWA==}
+    dev: false
+
+  /@noble/ciphers@0.4.0:
+    resolution: {integrity: sha512-xaUaUUDWbHIFSxaQ/pIe+33VG2mfJp6N/KxKLmZr5biWdNznCAmfu24QRhX10BbVAuqOahAoyp0S4M9md6GPDw==}
+    dev: true
 
   /@noble/curves@1.1.0:
     resolution: {integrity: sha512-091oBExgENk/kGj3AZmtBDMpxQPDtxQABR2B9lb1JbVTs6ytdzZNwvhxQ4MWasRNEzlbEH8jCWFCwhF/Obj5AA==}
@@ -8847,6 +8851,11 @@ packages:
 
   /@transmute/credentials-context@0.7.0-unstable.81:
     resolution: {integrity: sha512-TLXJkXwu+jscCVnAOuEmJYYbdaSaM6b2yk4R1g4T8gtTcTKts2G+KR5gE8A6W6QA5AuTZggwOWTxkISjErnYbw==}
+    dev: false
+
+  /@transmute/credentials-context@0.7.0-unstable.82:
+    resolution: {integrity: sha512-2cB6UcMKeEK6kqvl5Uhpoe5iUUAcVURlRHl9nVa/Xx2JymNHyBvyXi+CGjIwf/eEk7hsgMIwDfGqq5Mcnbk5cw==}
+    dev: true
 
   /@transmute/did-context@0.6.1-unstable.37:
     resolution: {integrity: sha512-p/QnG3QKS4218hjIDgdvJOFATCXsAnZKgy4egqRrJLlo3Y6OaDBg7cA73dixOwUPoEKob0K6rLIGcsCI/L1acw==}
@@ -13018,11 +13027,11 @@ packages:
       did-resolver: 4.1.0
     dev: false
 
-  /did-jwt-vc@3.2.11:
-    resolution: {integrity: sha512-bmy/ZyR563WDx3n6or8AwxbqQXKv/aKc2eQI4mkuDSGEdO0MwkxTQVA1i82TZAmYKUJ0zf0CMZKnhvJn/mKAUQ==}
+  /did-jwt-vc@3.2.14:
+    resolution: {integrity: sha512-5O07lNiWQ3eUwYzJBuF6YFx/yqTlbqkcYNhP/Q4dmGN6Pwf8pfrU9fTb0alIfSwmvlyLk2fb2FkVi03iNk4jGQ==}
     engines: {node: '>=18'}
     dependencies:
-      did-jwt: 7.4.2
+      did-jwt: 7.4.5
       did-resolver: 4.1.0
     dev: true
 
@@ -13055,17 +13064,18 @@ packages:
       uint8arrays: 4.0.6
     dev: false
 
-  /did-jwt@7.4.2:
-    resolution: {integrity: sha512-bdMVrUKD8wBiYihrxm5Bso33vYuw5DHxxN6y+IFSpHQpYQF16nuW6T8+FCrVkS5gDYE6jFZmnkqjJwycT4K7AA==}
+  /did-jwt@7.4.5:
+    resolution: {integrity: sha512-PjUFy/yhYeivNrQI5EaqYvF+cRL0itARQlXPfAnUUcj4tm40fzCU/0yWkhAoAPfM41e8O+QVRqOXwg0cZjlVeg==}
     dependencies:
-      '@noble/ciphers': 0.3.0
+      '@noble/ciphers': 0.4.0
       '@noble/curves': 1.1.0
       '@noble/hashes': 1.3.1
       '@scure/base': 1.1.3
       canonicalize: 2.0.0
       did-resolver: 4.1.0
-      multiformats: 12.0.1
-      uint8arrays: 4.0.6
+      multibase: 4.0.6
+      multiformats: 9.9.0
+      uint8arrays: 3.1.1
     dev: true
 
   /did-resolver@4.1.0:
@@ -19372,7 +19382,6 @@ packages:
     deprecated: This module has been superseded by the multiformats module
     dependencies:
       '@multiformats/base-x': 4.0.1
-    dev: false
 
   /multicast-dns@7.2.5:
     resolution: {integrity: sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg==}
